@@ -1,4 +1,7 @@
 #include <windows.h>
+#include "framework.h"
+
+#include "StartMenu.h"
 
 #define ID_BOTAO_SAIR 101
 
@@ -63,4 +66,5 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR args, int nShow) {
         DispatchMessage(&msg);
     }
     return 0;
+
 }
